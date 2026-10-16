@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description"
-        content="Soy Darío Bonilla Perea, desarrollador de software en formación de La Algaba, Sevilla. Mis principales tecnologías son Java y Angular.">
-
-    <title>Sobre mí | Darío Bonilla Perea</title>
-
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/script.js" defer></script>
+        content="I'm Darío Bonilla Perea, a software developer in training from La Algaba, Seville. My main technologies are Java and Angular.">
+    <title>About Me | Darío Bonilla Perea</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/script.js" defer></script>
 </head>
 
 <body id="top">
-
     <header class="site-header">
-        <a class="brand" href="../index.html" aria-label="Ir al inicio">
+        <a class="brand" href="../index.html" aria-label="Go to homepage">
             <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
             <span class="brand-name">
                 Darío Bonilla Perea<span class="brand-dot">.</span>
@@ -27,10 +23,15 @@
         <div class="header-actions">
             <span class="availability">
                 <span class="status-dot"></span>
-                Desarrollador en formación
+                Developer in training
             </span>
 
-            <button class="icon-button theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+            <a class="text-link secondary-link" href="../../pages/about_me.html" lang="es" hreflang="es"
+                aria-label="Switch to Spanish">ES</a>
+            <span aria-hidden="true">/</span>
+            <span lang="en" aria-current="page" aria-label="Current language: English">EN</span>
+
+            <button class="icon-button theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
                 <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
                     <circle cx="12" cy="12" r="4"></circle>
                     <path
@@ -39,9 +40,9 @@
                 </svg>
             </button>
 
-            <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false"
+            <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
                 aria-controls="site-menu">
-                <span class="menu-toggle-label">MENÚ</span>
+                <span class="menu-toggle-label">MENU</span>
                 <span class="menu-lines" aria-hidden="true">
                     <span></span>
                     <span></span>
@@ -50,72 +51,67 @@
         </div>
     </header>
 
-    <nav class="site-menu" id="site-menu" aria-label="Navegación principal" hidden>
-        <a href="../index.html"><span>01</span> Inicio</a>
-        <a href="my_projects.html"><span>02</span> Proyectos</a>
-        <a href="about_me.html" aria-current="page"><span>03</span> Sobre mí</a>
-        <a href="contact_me.html"><span>04</span> Contacto</a>
-
+    <nav class="site-menu" id="site-menu" aria-label="Main navigation" hidden>
+        <a href="../index.html"><span>01</span> Home</a>
+        <a href="my_projects.html"><span>02</span> Projects</a>
+        <a href="about_me.html" aria-current="page"><span>03</span> About Me</a>
+        <a href="contact_me.html"><span>04</span> Contact</a>
         <div class="menu-footer">
-            Construido con intención. Línea a línea.
+            Built with intention. Line by line.
         </div>
     </nav>
 
     <div class="menu-backdrop" hidden></div>
 
     <main>
-
-        <!-- Presentación -->
+        <!-- Introduction -->
         <section class="hero" aria-labelledby="hero-title">
-
             <div class="hero-topline">
                 <span class="eyebrow">
                     <span class="eyebrow-line"></span>
-                    PORTFOLIO / SOBRE MÍ
+                    PORTFOLIO / ABOUT ME
                 </span>
-
                 <span class="hero-location">
-                    LA ALGABA, SEVILLA
+                    LA ALGABA, SEVILLE
                     <span aria-hidden="true">↗</span>
                 </span>
             </div>
 
             <div class="hero-content">
-                <p class="intro-label">UN POCO SOBRE MÍ</p>
+                <p class="intro-label">A LITTLE ABOUT ME</p>
 
                 <h1 id="hero-title">
                     Darío Bonilla Perea<span class="accent">.</span>
                 </h1>
 
                 <p class="hero-role">
-                    Desarrollador de software
+                    Software Developer
                     <span class="role-separator"> / </span>
-                    <span class="muted-role">estudiante de DAW</span>
+                    <span class="muted-role">Web Development student</span>
                 </p>
 
                 <p class="hero-description">
-                    Tengo 20 años y soy de La Algaba, Sevilla. He completado
-                    el ciclo de Desarrollo de Aplicaciones Multiplataforma
-                    (DAM) y actualmente curso segundo de Desarrollo de
-                    Aplicaciones Web (DAW).
+                    I'm 20 years old and from La Algaba, Seville. I have
+                    completed the Multiplatform Application Development
+                    (DAM) programme and am currently in my second year of
+                    Web Application Development (DAW).
                 </p>
 
                 <p class="hero-description">
-                    Me interesa el desarrollo de software y la creación de
-                    aplicaciones útiles y bien estructuradas. Mis dos
-                    principales tecnologías son Java y Angular, con las que
-                    quiero seguir ampliando mis conocimientos y desarrollando
-                    proyectos.
+                    I'm interested in software development and building
+                    useful, well-structured applications. My two main
+                    technologies are Java and Angular, which I want to
+                    keep learning and use to develop more projects.
                 </p>
 
                 <div class="hero-links">
                     <a class="text-link primary-link" href="my_projects.html">
                         <span class="link-arrow">↗</span>
-                        Explorar proyectos
+                        Explore projects
                     </a>
 
                     <a class="text-link secondary-link" href="contact_me.html">
-                        Contactar conmigo
+                        Get in touch
                         <span aria-hidden="true">→</span>
                     </a>
                 </div>
@@ -124,26 +120,25 @@
             <div class="hero-bottom">
                 <span class="scroll-hint">
                     <span class="scroll-icon">↓</span>
-                    CONOCE MI PERFIL
+                    GET TO KNOW ME
                 </span>
 
                 <span class="hero-index">
-                    SOBRE MÍ <span>—</span> 002
+                    ABOUT ME <span>—</span> 002
                 </span>
             </div>
 
             <div class="decorative-grid" aria-hidden="true"></div>
         </section>
 
-        <!-- Resumen -->
-        <section class="quick-info" aria-label="Resumen de mi perfil">
-
+        <!-- Overview -->
+        <section class="quick-info" aria-label="Profile overview">
             <div class="info-item">
                 <span class="info-number">01</span>
                 <div>
                     <h2>Java</h2>
                     <p>
-                        Programación y desarrollo de aplicaciones.
+                        Programming and application development.
                     </p>
                 </div>
             </div>
@@ -153,7 +148,7 @@
                 <div>
                     <h2>Angular</h2>
                     <p>
-                        Desarrollo web y creación de interfaces dinámicas.
+                        Web development and dynamic user interfaces.
                     </p>
                 </div>
             </div>
@@ -161,23 +156,21 @@
             <div class="info-item">
                 <span class="info-number">03</span>
                 <div>
-                    <h2>Datos</h2>
+                    <h2>Data</h2>
                     <p>
-                        Conocimientos de SQL y MongoDB.
+                        Knowledge of SQL and MongoDB.
                     </p>
                 </div>
             </div>
-
         </section>
 
-        <!-- Tecnologías -->
+        <!-- Technologies -->
         <section class="featured" aria-labelledby="tech-title">
-
             <div class="section-heading">
                 <div>
-                    <p class="eyebrow">HERRAMIENTAS Y CONOCIMIENTOS</p>
+                    <p class="eyebrow">TOOLS AND SKILLS</p>
                     <h2 id="tech-title">
-                        Mi stack tecnológico<span class="accent">.</span>
+                        My tech stack<span class="accent">.</span>
                     </h2>
                 </div>
             </div>
@@ -188,32 +181,29 @@
                 </span>
 
                 <div>
-                    <p class="eyebrow">TECNOLOGÍAS COMPLEMENTARIAS</p>
-
-                    <h3>Más allá de Java y Angular.</h3>
-
+                    <p class="eyebrow">ADDITIONAL TECHNOLOGIES</p>
+                    <h3>Beyond Java and Angular.</h3>
                     <p>
-                        También tengo conocimientos de Python, JavaScript,
-                        HTML y CSS, además de bases de datos relacionales
-                        con SQL y bases de datos documentales con MongoDB.
-                        Estas tecnologías complementan mi formación y me
-                        permiten abordar distintos aspectos del desarrollo.
+                        I also have knowledge of Python, JavaScript,
+                        HTML and CSS, as well as relational databases
+                        using SQL and document databases using MongoDB.
+                        These technologies complement my training and
+                        allow me to work on different aspects of
+                        software development.
                     </p>
                 </div>
 
                 <span class="project-placeholder-number">STACK / 01</span>
             </div>
-
         </section>
 
-        <!-- Formación -->
+        <!-- Education -->
         <section class="featured" aria-labelledby="education-title">
-
             <div class="section-heading">
                 <div>
-                    <p class="eyebrow">FORMACIÓN ACADÉMICA</p>
+                    <p class="eyebrow">EDUCATION</p>
                     <h2 id="education-title">
-                        Mi recorrido<span class="accent">.</span>
+                        My journey<span class="accent">.</span>
                     </h2>
                 </div>
             </div>
@@ -224,53 +214,45 @@
                 </span>
 
                 <div>
-                    <p class="eyebrow">ACTUALMENTE EN FORMACIÓN</p>
-
+                    <p class="eyebrow">CURRENTLY STUDYING</p>
                     <h3>
-                        Desarrollo de Aplicaciones Web
+                        Web Application Development
                     </h3>
-
                     <p>
-                        Estoy cursando segundo de DAW para seguir creciendo
-                        en el desarrollo web, ampliar mis conocimientos
-                        técnicos y ponerlos en práctica mediante proyectos.
+                        I'm currently in my second year of DAW, continuing
+                        to grow as a web developer, expand my technical
+                        knowledge and put it into practice through projects.
                     </p>
-
                     <p>
-                        <strong>Formación anterior:</strong>
-                        Desarrollo de Aplicaciones Multiplataforma (DAM),
-                        ciclo que ya he completado.
+                        <strong>Previous education:</strong>
+                        Multiplatform Application Development (DAM),
+                        a programme I have already completed.
                     </p>
                 </div>
 
                 <span class="project-placeholder-number">DAW / 02</span>
             </div>
-
         </section>
 
-        <!-- Contacto -->
+        <!-- Contact -->
         <section class="contact-strip">
-
             <p class="eyebrow">
-                ¿TIENES UNA IDEA O UNA OPORTUNIDAD?
+                HAVE AN IDEA OR AN OPPORTUNITY?
             </p>
 
             <div class="contact-strip-row">
                 <h2>
-                    Hablemos<span class="accent">.</span>
+                    Let's talk<span class="accent">.</span>
                 </h2>
 
-                <a class="round-link" href="contact_me.html" aria-label="Ir a contacto">
+                <a class="round-link" href="contact_me.html" aria-label="Go to contact page">
                     ↗
                 </a>
             </div>
-
         </section>
-
     </main>
 
     <footer class="site-footer">
-
         <a class="brand footer-brand" href="../index.html">
             <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
             <span class="brand-name">
@@ -279,16 +261,14 @@
         </a>
 
         <span>
-            Diseñado y desarrollado por mí ©
+            Designed and developed by me ©
             <span id="current-year">2026</span>
         </span>
 
         <a href="#top" class="back-top">
-            VOLVER ARRIBA ↑
+            BACK TO TOP ↑
         </a>
-
     </footer>
-
 </body>
 
 </html>
