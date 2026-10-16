@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darío Bonilla Perea | Portfolio de desarrollador</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="Ir al inicio">
+            <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+            <span class="brand-name">Darío Bonilla Perea<span class="brand-dot">.</span></span>
+        </a>
+
+        <div class="header-actions">
+            <span class="availability">
+                <span class="status-dot"></span>
+                Disponible para oportunidades
+            </span>
+
+            <button class="icon-button theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+                <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path
+                        d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42">
+                    </path>
+                </svg>
+            </button>
+
+            <button class="menu-toggle" type="button" aria-label="Abrir menú de navegación" aria-expanded="false"
+                aria-controls="site-menu">
+                <span class="menu-toggle-label">MENÚ</span>
+                <span class="menu-lines" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="site-menu" id="site-menu" aria-label="Navegación principal" hidden>
+        <a href="./index.html"><span>01</span> Inicio</a>
+        <a href="./pages/my_projects.html"><span>02</span> Proyectos</a>
+        <a href="./pages/about_me.html"><span>03</span> Sobre mí</a>
+        <a href="./pages/contact_me.html"><span>04</span> Contacto</a>
+        <div class="menu-footer">Construido con intención. Línea a línea.</div>
+    </nav>
+
+    <div class="menu-backdrop" hidden></div>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-topline">
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    PORTFOLIO / 2026
+                </span>
+                <span class="hero-location">
+                    SEVILLA, ESPAÑA <span aria-hidden="true">↗</span>
+                </span>
+            </div>
+
+            <div class="hero-content">
+                <p class="intro-label">HOLA, MUNDO. SOY</p>
+
+                <h1 id="hero-title">
+                    Darío Bonilla Perea<span class="accent">.</span>
+                </h1>
+
+                <p class="hero-role">
+                    Desarrollador de software
+                    <span class="role-separator"> / </span>
+                    <span class="muted-role">creando soluciones digitales</span>
+                </p>
+
+                <p class="hero-description">
+                    Me gusta convertir problemas complejos en soluciones claras,
+                    útiles y bien construidas. Explora algunos de mis proyectos
+                    y conoce cómo trabajo.
+                </p>
+
+                <div class="hero-links">
+                    <a class="text-link primary-link" href="./pages/my_projects.html">
+                        <span class="link-arrow">↗</span>
+                        Explorar proyectos
+                    </a>
+
+                    <a class="text-link secondary-link" href="./pages/about_me.html">
+                        Un poco sobre mí <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span class="scroll-hint">
+                    <span class="scroll-icon">↓</span>
+                    DESPLÁZATE PARA EXPLORAR
+                </span>
+
+                <span class="hero-index">INICIO <span>—</span> 001</span>
+            </div>
+
+            <div class="decorative-grid" aria-hidden="true"></div>
+        </section>
+
+        <section class="quick-info" aria-label="Resumen">
+            <div class="info-item">
+                <span class="info-number">01</span>
+                <div>
+                    <h2>Desarrollo</h2>
+                    <p>Aplicaciones pensadas para resolver problemas reales.</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <span class="info-number">02</span>
+                <div>
+                    <h2>Aprendizaje</h2>
+                    <p>Curiosidad constante y ganas de mejorar cada día.</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <span class="info-number">03</span>
+                <div>
+                    <h2>Enfoque</h2>
+                    <p>Código claro, buenas prácticas y atención al detalle.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured" aria-labelledby="featured-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">UNA SELECCIÓN DE MI TRABAJO</p>
+                    <h2 id="featured-title">
+                        Proyectos destacados<span class="accent">.</span>
+                    </h2>
+                </div>
+
+                <a class="text-link" href="./pages/my_projects.html">
+                    Ver todos <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <div class="project-placeholder">
+                <span class="project-placeholder-icon" aria-hidden="true">&lt; / &gt;</span>
+
+                <div>
+                    <p class="eyebrow">PROYECTO DESTACADO · EN DESARROLLO</p>
+                    <h3>EpicVault<span class="accent">.</span></h3>
+
+                    <p>
+                        Una aplicación para gestionar campañas de rol, disponible en
+                        dos versiones: una aplicación web desarrollada con Angular,
+                        Express y MongoDB, y otra en formato Android. Permite gestionar
+                        amigos, crear salas compartidas, tomar notas, diseñar personajes
+                        y mantener un inventario común para cada campaña.
+                    </p>
+
+                    <a class="text-link primary-link" href="./projects/epicvault/index.html">
+                        <span class="link-arrow">↗</span>
+                        Explorar EpicVault
+                    </a>
+                </div>
+
+                <span class="project-placeholder-number">01 / 01</span>
+            </div>
+        </section>
+
+        <section class="contact-strip">
+            <p class="eyebrow">¿TIENES UNA IDEA O UNA OPORTUNIDAD?</p>
+
+            <div class="contact-strip-row">
+                <h2>Hablemos<span class="accent">.</span></h2>
+
+                <a class="round-link" href="./pages/contact_me.html" aria-label="Ir a contacto">↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="./index.html">
+            <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+            <span class="brand-name">
+                Darío Bonilla Perea<span class="brand-dot">.</span>
+            </span>
+        </a>
+
+        <span>
+            Diseñado y desarrollado por mí ©
+            <span id="current-year">2026</span>
+        </span>
+
+        <a href="#top" class="back-top">VOLVER ARRIBA ↑</a>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
