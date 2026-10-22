@@ -1,4 +1,3 @@
-
 const menuToggle = document.querySelector(".menu-toggle");
 const siteMenu = document.querySelector("#site-menu");
 const menuBackdrop = document.querySelector(".menu-backdrop");
